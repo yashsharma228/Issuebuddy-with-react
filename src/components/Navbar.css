@@ -1,0 +1,20 @@
+nav .fa-solid {
+    display: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  nav .fa-solid {
+    display: block;
+    font-size: 25px;
+    color: #000; 
+  }
+  .navbar-collapse {
+     display: none; 
+   }
+  .navbar-collapse.show {
+     display: block; 
+     background-color: #f8f9fa; 
+     padding: 10px;
+   }
+}
+  
